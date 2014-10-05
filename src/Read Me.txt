@@ -1,0 +1,84 @@
+Name: Arunkumar Manickam
+Net ID: axm126230@utdallas.edu
+
+============================================================================================================
+
+The University of Texas at Dallas
+CS 6322 : Information Retrieval 
+Spring 2014 
+============================================================================================================
+        
+To Compile:
+javac HW1.java
+
+To Run:
+java HW1
+
+============================================================================================================
+
+Output:
+1. Total tokens			: 225540
+2. Total Unique Tokens		: 11978
+3. Words that occurs Only once		: 6179
+4. Average Tokens per CraneField	: 161.0
+5. Most Frequent 30 words 
+--------------------
+| Word | Frequency |
+--------------------
+was:	698 
+layer:	727 
+theory:	772 
+mach:	817 
+it:	851 
+results:	884 
+boundary:	896 
+number:	958 
+which:	974 
+this:	1080 
+as:	1111 
+from:	1116 
+pressure:	1129 
+be:	1271 
+an:	1386 
+that:	1564 
+flow:	1722 
+by:	1746 
+at:	1833 
+on:	1940 
+with:	2262 
+are:	2427 
+for:	3490 
+is:	4110 
+to:	4528 
+in:	4621 
+a:	5916 
+and:	6659 
+of:	12671 
+the:	19441 
+6. Run time :953 ms
+
+============================================================================================================
+  
+
+ Program Description :
+
+1. The program gets all the text characteristics in about  0.95 s
+
+2. Program handles:
+It parses the document with the white space, it also removes the special characters in the beginning and end of the word. Aslo it eliminates the number.
+A. The program handles upper and lower case letters to be the same. Ex: Apple 0r apple or aPPLE all are same by converting thw words to lowercase befor putting in hash map. 
+B.  Words with "-" are treated as it is.
+C. Possessives return the word, if they have apostrophe in the last before position.
+D. The acronyms are treated as N.Y. to N.Y which the last period will be removed.
+
+3. Datastructures used: 
+
+A). Hash Map which is mainly used to obtain the unique words. 
+B). LinkedList and LinkedHashMAp is used to sort the tokens based on the frequency using the compartoe over ride.
+
+
+==============================================================================================================
+
+
+
+
