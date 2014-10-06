@@ -5,8 +5,8 @@ Information retrieval is the activity of obtaining information resources relevan
 
 Automated information retrieval systems are used to reduce what has been called "information overload". Many universities and public libraries use IR systems to provide access to books, journals and other documents. Web search engines are the most visible IR applications.
 
-###Projects
-##program to gather information about tokens in the Cranfield database
+##Projects
+###program to gather information about tokens in the Cranfield database
 In the Cranfield collection, document and field boundaries are indicated with SGML tags ("document markup"). SGML tags are not considered words, so they should not be included in any of the information your program gathers. The SGML tags in this data follow the conventional style:
 <[/]?tag> | >[/]?tag (attr[=value])+>The attributes and the values from the SGML conventional style are optional and appear rarely or not at all in this data collection.
 Use your program to generate the following information.* The number of tokens in the Cranfield text collection;
